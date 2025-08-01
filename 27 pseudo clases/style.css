@@ -1,0 +1,65 @@
+/* Las pseudo clases son palabras claves agregadas a un selector
+que modifica el comportamiento de un elemento cuando pasa por 
+cierto estado*/
+
+/*basicamente modifica un estado especial de un elemento*/
+
+a:link{
+    color: rgb(94, 118, 252);
+}
+
+a:hover{
+    color: rgb(184, 195, 255);
+    font-size: 1.1em;
+}
+
+a:active{
+    font-size: 1.1em;
+    color: darkblue;
+}
+
+a:visited{
+    color: grey;
+
+}
+
+/*:not indica que cuando no esta en estado hover se aplique el estilo*/
+/*
+li:hover{
+    background-color: rgb(255, 255, 143);
+}
+
+li:not(:hover){
+    background-color: grey;
+}
+*/
+li:nth-child(even){
+    /*
+        se puede seleccionar cual se sombrea: 
+        - even: para impares 
+        - odd: para pares
+        - 1: para el primero
+        - 2: para el segundo y asi ...
+        - 3n: cada 3 elementos
+        - 4n: cada 4 elementos
+        - 3n+1: cada 3 elementos pero iniciando con el primero 
+        - 3n+2: cada 3 elementos pero iniciando con el segundo y asi ... 
+    */
+    background-color: rgb(111, 253, 111);
+}
+
+
+
+/*util para crear menus*/
+#greeting{
+    display: inline;
+}
+
+#greeting p{
+    background-color: lightblue;
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}

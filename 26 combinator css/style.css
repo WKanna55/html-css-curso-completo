@@ -1,0 +1,34 @@
+#container{
+    border: 2px solid;
+}
+
+/*descendent = aplica estilo a todos los p 
+que esten contenido dentro de #container*/
+#container p{
+    background-color: rgb(255, 255, 118);
+}
+
+/* child = plica estilo a los p que esten contenido dentro de 
+#container, no se aplica si ese p esta en un subcontenedor */
+/*
+#container > p{
+    background-color: rgb(255, 255, 118);
+}
+*/
+
+/*general siblings = aplica el estilo a todos los p hermanos del 
+contenedor, si ese p esta dentro de un contenedor hermano no se aplica*/
+/*
+#container ~ p{
+    background-color: rgb(255, 255, 118);
+}
+*/
+
+/*adjacent siblings = aplica el estilo el p hermano siguiente del 
+contenedor, si ese p esta dentro de un contenedor hermano no se aplica*/
+/*
+/*
+#container + p{
+    background-color: rgb(255, 255, 118);
+}
+*/

@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+h1{
+    color: lightblue;
+}
+/*id*/
+#p1{
+    color: red;
+}
+#p2{
+    color: aliceblue;
+}
+/*class*/
+.odd{
+    color: blue;
+}
+.even{
+    color: purple;
+}

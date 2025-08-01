@@ -1,0 +1,35 @@
+#ov1{
+    border: 2px solid;
+    height: 75px;
+    margin-bottom: 50px;
+    overflow: visible;
+}
+
+#ov2{
+    border: 2px solid;
+    height: 75px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+#ov3{
+    border: 2px solid;
+    height: 75px;
+    margin-bottom: 50px;
+    overflow: clip;
+    overflow-clip-margin: 7px;
+}
+
+#ov4{
+    border: 2px solid;
+    height: 75px;
+    margin-bottom: 50px;
+    overflow: scroll;
+}
+
+#ov5{
+    border: 2px solid;
+    height: 75px;
+    margin-bottom: 50px;
+    overflow: auto;
+}

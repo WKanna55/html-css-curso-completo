@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box; /* lo suelen poner aca por lo molesto que 
+                                es calcular los bordes y paddings*/
+}
+
+.container{
+
+    background-color: aquamarine;
+
+    height: 100vh; /*indica que tomaremos el total de la pantalla (vh)*/
+
+}
+
+.box{
+    border: 2px solid;
+    padding: 25px;
+
+    /*box-sizing: border-box; considera los paddings y los bordes al 
+    momento de calcular y nos permite ingorar estas propiedades*/
+
+    /*height: auto; viene por defecto, ocupa todo el espacio posible*/
+    /*height: 200px;*/
+    height: auto;
+    /*width: auto; viene por defecto, ocupa todo el espacio posible*/
+    /*width: 200px;*/
+    width: 50%;
+    float: left; /*el float no funcionó porque el borde ocupa 2px extra al 50% del ancho*/
+    text-align: center;
+
+    min-width: 50%; /*indica que tomaremos el 50% del contenedor*/
+    min-height: 50%;
+}

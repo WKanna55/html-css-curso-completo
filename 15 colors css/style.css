@@ -1,0 +1,25 @@
+/*colores con nombre*/
+
+body{
+    background-color: slategrey;
+}
+
+#p1{
+    color: tomato
+}
+
+/*colores RGB -> usar color picker en internet*/
+#p2{
+    color: rgb(16, 80, 90);
+}
+
+/*colores hexadecimales -> usar color picker en internet*/
+
+#p3{
+    color: #156a12;
+}
+
+/*colores hsl*/
+#p4{
+    color: hsl(283, 100%, 64%);
+}

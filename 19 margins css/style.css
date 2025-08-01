@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+}
+
+/* al poner margin: auto; se centrara el elemento*/
+/* al poner margin-left: auto el elemnto se alineara a la izquierda, 
+    y asi la logica continua*/
+
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+#box1{
+    background-color: rgb(255, 112, 112);
+    
+}
+#box2{
+    background-color: rgb(185, 185, 255);
+
+}

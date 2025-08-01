@@ -1,0 +1,36 @@
+.icons{
+    text-align: center;
+}
+
+.icons a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.fa-solid.fa-house.fa-5x{
+    color: rgba(131, 131, 131, 0.815);
+}
+.fa-solid.fa-house.fa-5x:hover{
+    color: rgba(209, 209, 209, 0.815);
+}
+
+.fa-solid.fa-hat-wizard.fa-5x{
+    color: rgba(83, 119, 235, 0.815);
+}
+.fa-solid.fa-hat-wizard.fa-5x:hover{
+    color: rgba(159, 182, 255, 0.815);
+}
+
+.fa-brands.fa-youtube.fa-5x{
+    color: rgba(231, 56, 56, 0.959);
+}
+.fa-brands.fa-youtube.fa-5x:hover{
+    color: rgba(238, 108, 108, 0.959);
+}
+
+.fa-brands.fa-brands.fa-tiktok.fa-5x{
+    color: rgba(30, 17, 41, 0.959);
+}
+.fa-brands.fa-brands.fa-tiktok.fa-5x:hover{
+    color: rgba(64, 46, 80, 0.959);
+}

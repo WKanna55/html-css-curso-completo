@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    /*flex-direction: row; default en fila*/
+    /*flex-direction: row-reverse; invierte la fila*/
+    /*flex-direction: column; en columna*/
+    /*flex-direction: column-reverse; columna invertida*/
+
+    /* en el main axis eje principal, es la fila o el ancho*/
+    /*justify-content: start; default en el inicio de la linea o columna de la pagina(izquierda-superior)*/
+    /*justify-content: center; en el centro del eje principal*/
+    /*justify-content: flex-end; al final del eje principal*/
+    /*justify-content: space-between; el espacio entre ellos es le que se mueve*/
+    /*justify-content: space-around; el area fuere de los elementos es incluida*/
+    /*justify-content: space-evenly; similar a space around*/
+
+    border: 10px solid black;
+    height: 90vh;
+    /*justify-content: space-evenly;*/
+
+    /*alineacion en el eje seciundario, el alto de la pagina*/
+    /*align-items: flex-start; por defecto esta en el inicio de la pagina*/
+    /*align-items: flex-end; al final de la pagina, osea la parte inferior*/
+    /*align-items: center; alineado al centro verticalmente*/
+    /*align-items: baseline; alinea segun la base del texto*/
+
+    /*flex-wrap: no-wrap; por defecto*/
+    /*flex-wrap: wrap; los elementos se ajustan si no hay espacio y no se apachurran*/
+    /*flex-wrap: wrap-reverse; se invierte empezando desde la esquina inferior izquierda*/
+    /*flex wrap se usa bastante con align content,*/
+
+
+    /*
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 1em;
+    row-gap: 1em;*/
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1{
+    font-size: 5em;
+    background-color: rgb(248, 86, 86);
+
+    align-self: center; /*para alinearse individualmente*/
+}
+#box2{
+    background-color: rgb(212, 231, 102);
+    order: -1;/*ordenar los elementos el negativo va primero y el numero mas alto va al aultim*/
+}
+#box3{
+    background-color: rgb(69, 240, 91);
+}
+#box4{
+    background-color: rgb(60, 143, 211);
+}
+

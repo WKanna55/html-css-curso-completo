@@ -1,0 +1,44 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(102, 196, 250);
+
+    /*Numero 1: relative*/
+    /*
+    position: relative;
+    top: 100px;
+    left: 100px;
+    */
+
+
+    /*Numero 2: fixed*/
+    /*
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    */
+
+    /*Numero 3: absolute usar*/
+    /*
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    */
+
+    /*Numero 4: sticky*/
+    position: sticky;
+    top: 0px;
+}
+
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 79, 79);
+
+
+    /*Numero 3: absolute*/
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}

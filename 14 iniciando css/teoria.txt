@@ -1,0 +1,8 @@
+CSS:
+CSS acronimo de Cascading Style Sheet
+usado para estilizar html
+Hay 3 maneras en las que se puede aplicar CSS:
+    Inline: css en un linea del doc html
+    Internal: css en el <head> del documento html
+    External: css en una hoja externa al doc unidos mediante <link>
+

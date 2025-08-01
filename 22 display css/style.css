@@ -1,0 +1,33 @@
+/*
+    display: block -> se muestra un bloque forzadamente, 
+                      ocupa todo el espacio
+    display: inline -> se ajusta a solo el espacio requerido y 
+                       no ocupa todo
+    display: inline-block -> se ajusta al espacio requerido pero 
+                            se puede poner altura y ancho
+        visibility: hidden -> con lo anterior, se puede hacer 
+                              "invisible" el bloque, aunque seguira 
+                               ocupando ese espacio
+    display: none -> No se muestra eb absoluto el bloque o 
+                     linea, ni ocupa espacio
+
+*/
+
+div{
+    background-color: rgb(255, 136, 136);
+    width: 100px;
+    height: 100px;
+    /*display: block;*/
+    /*display: inline;*/
+    /*display: inline-block;*/ /*visibility: hidden;*/
+    display: none;
+}
+span{
+    background-color: rgb(119, 119, 248);
+    width: 100px;
+    height: 100px; /*se matiene en linea*/
+    /*display: block;*/
+    /*display: inline;*/
+    /*display: inline-block;*/
+    display: none;
+}

@@ -1,0 +1,17 @@
+/*ojo importante para que no se desborden las imagenes del contenedor
+existe una propiedad display flow-root que hace que todo se quede dentro
+del contenedor  */
+body{
+    border: 3px solid;
+    display: flow-root;
+}
+
+#img1{
+    float: left;
+    margin-right: 10px;
+}
+
+#img2{
+    float: right;
+    margin-left: 10px;
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: MadimiOne-Regular;
+    src: url(fonts/MadimiOne-Regular.ttf);
+}
+@font-face {
+    font-family: Micro5;
+    src: url(fonts/Micro5-Regular.ttf);
+}
+
+h1{
+    font-family: Micro5 ,Verdana, Arial;
+}
+
+p{
+    font-family: MadimiOne-Regular, "lucida console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+}
